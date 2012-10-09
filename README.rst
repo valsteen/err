@@ -43,7 +43,7 @@ Administration and Security :
 - Plugins can be hosted publicly or privately on git
 - Plugins can be configured directly from chat (no need to change setup files for every plugin)
 - Configs can be exported and imported again with two commands (!export and !import respectively)
-- Technical logs can be inspected from the chat or [logged to Sentry](https://github.com/gbin/err/wiki/Logging-with-Sentry)
+- Technical logs can be inspected from the chat or `logged to Sentry`_
 
 Provides for Extensibility :  
 
@@ -64,6 +64,7 @@ Provides for Extensibility :
 .. _yapsy: http://yapsy.sourceforge.net/
 .. _`google plus page`: https://plus.google.com/101905029512356212669/
 .. _github: http://github.com/gbin/err/
+.. _`logged to Sentry`: https://github.com/gbin/err/wiki/Logging-with-Sentry
 
 Prerequisites
 -------------
@@ -136,8 +137,8 @@ Interacting with the Bot
 ------------------------
 
 - Invite the bot directly from your chat client.
-- Send commands directly to the bot, or in a MUC the bot has joined. (Try sending _!help_, without the quotes)
-- If you wish to know more about a specific command you can send _!help command_
+- Send commands directly to the bot, or in a MUC the bot has joined. (Try sending "!help", without the quotes)
+- If you wish to know more about a specific command you can send "!help command"
 
 More documentation is available on the wiki : https://github.com/gbin/err/wiki
 
