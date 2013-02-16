@@ -265,6 +265,7 @@ class ErrBot(Backend, StoreMixin):
         self.send(mess.getFrom(), "Deactivating all the plugins...")
         deactivate_all_plugins()
         self.send(mess.getFrom(), "Restarting")
+        self.close_storage()
         global_restart()
         return "I'm restarting..."
 
